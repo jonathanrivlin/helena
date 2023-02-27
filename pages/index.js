@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import helenaPic from "../public/helena.jpeg"
 import logoPic from "../public/logo.svg"
 
@@ -75,7 +76,7 @@ export default function Home() {
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  ד"ר הלנה בוגופולסקי, מומחית לפסיכותרפיה בעזרת מוזיקה, מסייעת לילדים בעזרת טיפול במוזיקה בקלינקה פרטית בירושלים, מתמחה ב:
+                  ד&quot;ר הלנה בוגופולסקי, מומחית לפסיכותרפיה בעזרת מוזיקה, מסייעת לילדים בעזרת טיפול במוזיקה בקלינקה פרטית בירושלים, מתמחה ב:
                 </p>
                 <ul className="list-disc list-inside mt-4">
                   <li>ילדים אוטיסטים</li>
@@ -88,7 +89,7 @@ export default function Home() {
 
                 </p>
                 <p className="mt-8">
-                  בעבודת הדוקטורט שלי בנושא "מוסיקה ורפואה" מצאתי הוכחות להשפעת המוסיקה על מדדים פיזיולוגים, ביוכימים ורגשיים של המטופלים. מנסיוני הרב של יותר מעשרים שנה בעבודה עם ילדים על הספקטרום האוטיסטי, ילדים בעלי ביטחון עצמי ירוד ילדים עם פחדים וחרדות, וילדית עם מחלות כרוניות.
+                  בעבודת הדוקטורט שלי בנושא &quot;מוסיקה ורפואה&quot; מצאתי הוכחות להשפעת המוסיקה על מדדים פיזיולוגים, ביוכימים ורגשיים של המטופלים. מנסיוני הרב של יותר מעשרים שנה בעבודה עם ילדים על הספקטרום האוטיסטי, ילדים בעלי ביטחון עצמי ירוד ילדים עם פחדים וחרדות, וילדית עם מחלות כרוניות.
                 </p>
               </div>
             </div>
@@ -136,9 +137,9 @@ export default function Home() {
         <div className="mx-auto max-w-7xl py-12 px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center gap-x-6 md:order-2 text-sm">
 
-            <a href="/accessibility">
+            <Link href="/accessibility">
               הצהרת נגישות
-            </a>
+            </Link>
             <a href="https://rivlin.dev/web-development">
               פיתוח אתרים
             </a>
