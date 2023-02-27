@@ -147,7 +147,7 @@ export default function Home() {
           </div>
           <div className="mt-8 md:order-1 md:mt-0">
             <p className="text-center leading-5 text-gray-200">
-              &copy; דר' הלנה בוגופולסקי - מטפלת במוסיקה לילדים על הספקטרום האוטיסטי בירושלים
+              &copy; דר&apos; הלנה בוגופולסקי - מטפלת במוסיקה לילדים על הספקטרום האוטיסטי בירושלים
             </p>
           </div>
         </div>
