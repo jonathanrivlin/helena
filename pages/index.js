@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import helenaPic from "../public/helena.jpeg"
-import logoPic from "../public/logo.png"
+import logoPic from "../public/logo.svg"
 
 
 export default function Home() {
