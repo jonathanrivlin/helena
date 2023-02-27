@@ -42,9 +42,9 @@ export default function Home() {
       </Head>
       <header className="bg-white mx-auto pb-10">
         <nav className="mx-auto flex flex-col sm:flex-row max-w-7xl items-center justify-between pt-6 lg:pt-8" aria-label="Global">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <Image src={logoPic} alt="דר הלנה בוגופולסקי - טיפול במוזיקה לילדים על הספקטרום האוטיסטי בירושלים" height={75} />
-          </a>
+          </Link>
           <div className="flex flex-1 justify-end gap-x-5">
             <a href="tel:0543171796" className="font-semibold leading-6 py-3   text-gray-900">
               054-3171796 <span aria-hidden="true">&larr;</span>

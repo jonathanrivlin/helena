@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Accessibility() {
     return (
         <>
@@ -19,9 +21,9 @@ export default function Accessibility() {
                 <p>במידה ונתקלתם בבעיה נשמח לסייע ולטפל בבעיה בהקדם האפשרי, <br />
                     ניתן ליצור איתנו קשר באמצעות הדואר האלקטורני helena.bogopolsky@mail.huji.ac.il
                 </p>
-                <a href="/" className="mt-6 block font-semibold leading-6 text-gray-900 hover:text-blue-800">
+                <Link href="/" className="mt-6 block font-semibold leading-6 text-gray-900 hover:text-blue-800">
                     חזרה לדף הנחיתה <span aria-hidden="true">&larr;</span>
-                </a>
+                </Link>
             </section>
 
         </>
