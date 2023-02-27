@@ -57,7 +57,7 @@ export default function Home() {
           <div className="mx-auto flex gap-16 flex-col-reverse sm:flex-row">
             <div className="basis-1/2">
               <div className="relative overflow-hidden rounded-3xl bg-gray-900 pb-9 pt-64 lg:pt-96 shadow-2xl px-12">
-                <Image src={helenaPic} className="absolute inset-0 h-full w-full object-cover" alt="טיפול במוזיקה לילדים על הספקטרום האוטיסטי בירושלים" />
+                <Image src={helenaPic} className="absolute inset-0 h-full w-full object-cover" alt="טיפול במוזיקה לילדים על הספקטרום האוטיסטי בירושלים" height={870} />
                 <div className="absolute inset-0 bg-gray-500 mix-blend-multiply" />
 
                 <figure className="relative isolate">
