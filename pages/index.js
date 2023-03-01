@@ -39,6 +39,7 @@ export default function Home() {
         <title>ד&quot;ר הלנה בוגופולסקי - מטפלת במוסיקה לילדים על הספקטרום האוטיסטי בירושלים</title>
         <meta name="description" content='ד"ר הלנה בוגופולסקי, מומחית לפסיכותרפיה בעזרת מוזיקה בירושלים, מסייעת לילדים אוטיסטים, ילדים בעלי פחדים וחרדות, ילדים עם קשיים חברתיים, וילדים עם ביטחון עצמי ירוד בעזרת טיפול במוזיקה בקלינקה פרטית בירושלים' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="qFNG9PsL8xyUKuBVQAsvi_VLyU5D-BptbbdrvzyPFVM" />
       </Head>
       <header className="bg-white mx-auto pb-10">
         <nav className="mx-auto flex flex-col sm:flex-row max-w-7xl items-center justify-between pt-6 lg:pt-8" aria-label="Global">

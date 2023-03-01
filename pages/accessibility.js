@@ -3,6 +3,11 @@ import Link from 'next/link'
 export default function Accessibility() {
     return (
         <>
+            <Head>
+                <title>ד&quot;ר הלנה בוגופולסקי - הצהרת נגישות</title>
+                <meta name="description" content='הצהרת נגישות לאתר המתארת כיצד הונגש האתר' />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
             <section className="container mx-auto py-12 text-slate-600 leading-9 px-5">
                 <h1 className='text-3xl lg:text-4xl leading-relaxed font-extrabold pb-4 text-slate-900'>הצהרת נגישות</h1>
                 <p>דף נחיתה זה עומד בדרישות תקנות שיוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע&quot;ג 2013. ההתאמות של הנגישות בוצעו ע&quot;פ המלצות התקן הישראלי (ת&quot;י 5568) לנגישות תכנים באינטרנט ברמת AA ומסמך הWCAG2.0 הבינלאומי. </p>
